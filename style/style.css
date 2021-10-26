@@ -75,6 +75,10 @@ body {
   font-size: 3rem;
 }
 
+.birthday-img{
+	width: 30%;
+}
+
 .four .text-box {
   width: 600px;
   margin: 0 auto;
@@ -110,6 +114,10 @@ body {
   right: 0;
 }
 
+.special-img{
+	width: 25%;
+}
+
 .idea-3 strong {
   padding: 3px 5px;
   border-radius: 3px;
@@ -143,8 +151,8 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -35px;
-  left: 41.5%;
+  top: 72px;
+  left: 69.5%;
   /* transform: scale(0.1); */
 }
 
@@ -245,6 +253,10 @@ body {
   font-weight: lighter;
 }
 
+.lydia-dp{
+	width: 60%;
+}
+
 #replay {
   z-index: 3;
   cursor: pointer;
@@ -253,25 +265,25 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    left: 48%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    left: 55%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
+    left: 50%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 50%;
   }
 }
 

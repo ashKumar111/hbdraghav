@@ -171,7 +171,7 @@ const animationTimeline = () => {
     )
     .staggerFromTo(
       ".baloons img",
-      2.5,
+      4,
       {
         opacity: 0.9,
         y: 1400
@@ -180,7 +180,7 @@ const animationTimeline = () => {
         opacity: 1,
         y: -1000
       },
-      0.2
+      0.45
     )
     .from(
       ".lydia-dp",
@@ -261,7 +261,7 @@ const animationTimeline = () => {
       ".last-smile",
       0.5,
       {
-        rotation: 90
+        rotation: 0
       },
       "+=1"
     );
